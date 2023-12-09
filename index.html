@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts list</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/logo.png" alt="logo" title="logo">            
+            <h1>CONTACTS LIST</h1>
+        </header>
+        <form id="contact-form" action="">
+            <input type="text" name="" id="name" required placeholder="Name and last name" onfocusout="searchName()">
+            <input type="tel" name="" id="tel" required placeholder="Telephone number">
+            <button id="btn-add" type="submit">ADD+</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>CONTACT NAME</th>
+                    <th>TELEPHONE NUMBER</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
